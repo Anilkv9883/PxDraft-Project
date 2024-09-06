@@ -1,0 +1,173 @@
+@media only screen and (max-width:992px) {
+    .nav .menu-bar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        /* display: none; */
+        height: 0;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    .nav .open {
+        /* display: block; */
+        min-height: 200px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        padding: 10px;
+        border-bottom: 1px solid rgb(238, 236, 236);
+    }
+
+    .nav .btn-1 {
+        display: none;
+    }
+
+    .nav .menu-icon {
+        display: block;
+    }
+
+
+    /* hero secito  */
+    .hero .hero-left {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .hero .hero-right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* prrtfolio  */
+    .portfolio .p-left {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio .p-right {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    @media only screen and (max-width:992px) {
+        .cards {
+            padding: 10px 20px;
+        }
+
+        .cards .card {
+
+            max-width: 100%;
+        }
+
+        .skills .skill-content {
+            width: 100%;
+        }
+
+        .skills .skill-img {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .p-img {
+            width: 80%;
+            overflow: hidden;
+        }
+
+        .p-content {
+            width: 100%;
+        }
+
+
+        .project2 {
+
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .project2 .p-img {
+            order: 2;
+            margin-top: 20px;
+        }
+
+        .project2 .p-content {
+            order: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .form-section {
+            width: 100%;
+          
+        }
+        .contact-section {
+            width: 100%;
+         
+          }
+          .contact-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+          .contact-section div{
+            min-width: 50%;
+          }
+          .main-footer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+    }
+
+    @media only screen and (max-width:576px) {
+        .hero h2 {
+            font-size: 30px;
+        }
+
+        .hero .p-1 {
+            font-size: 14px;
+        }
+
+        .hero .p-2 {
+            font-size: 14px;
+        }
+
+        .portfolio .p-right h3 {
+            font-size: 25px;
+        }
+
+        .cards .card {
+            min-width: 200px;
+        }
+
+        .cards .card h3 {
+            font-size: 16px;
+        }
+
+        .cards .card p {
+            font-size: 12px;
+        }
+
+
+    }
+
+
+
+}
